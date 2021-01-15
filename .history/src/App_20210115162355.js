@@ -5,7 +5,6 @@
 
 // import Home from "./components/home";
 import Homecontainer from "./containers/homeContainer";
-import HeaderContainer from "./containers/headerContainer";
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
       <Hoverclickcount /> */}
 
       {/* <Home /> */}
-      <HeaderContainer />
       <Homecontainer />
       
     </div>

@@ -3,23 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-//
-import { createStore } from "redux";
-import { Provider } from "react-redux";
-import rootReducer from "./Services/Reducers/index";
-const store=createStore(rootReducer)
-// console.warn('Store data', store);
-//
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-  // <React.StrictMode>
-  //   <App />
-  // </React.StrictMode>,
-  <Provider store={store}>
+  <React.StrictMode>
     <App />
-  </Provider>,
+  </React.StrictMode>,
   document.getElementById('root')
 );
 

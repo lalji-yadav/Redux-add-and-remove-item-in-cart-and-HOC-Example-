@@ -10,7 +10,7 @@ import { createStore } from "redux";
 import { Provider } from "react-redux";
 import rootReducer from "./Services/Reducers/index";
 const store=createStore(rootReducer)
-// console.warn('Store data', store);
+console.warn('Store data', store);
 //
 
 ReactDOM.render(
